@@ -17,5 +17,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="bcprov-jdk15to18-1.78" level="project" />
+    <orderEntry type="library" name="bcprov-jdk15to18-1.781" level="project" />
   </component>
 </module>

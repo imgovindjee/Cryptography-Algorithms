@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class RSAMain {
     public void run() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("[RSA-Main] : Enter a Message to Encrypt.");
+        System.out.print("[RSA-Main] : Enter a Message to Encrypt --> ");
         String userMessage = sc.nextLine();
 
-        System.out.println("\n\n");
+        System.out.println("\n");
 
         RSA rsa = new RSA();
         byte[] userMessageToBytes = userMessage.getBytes();
